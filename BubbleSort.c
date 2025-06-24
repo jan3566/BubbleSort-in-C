@@ -9,7 +9,7 @@
 
 int main()
 {
-    int gArray; // Größe von dem Array arr[gArray]
+    int gArray; // Größe von dem Array
 
     printf(ANSI_GREEN"gebe die Groesse des Array ein: "ANSI_RESET);
     scanf("%d", &gArray);
