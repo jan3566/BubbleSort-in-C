@@ -50,8 +50,8 @@ int main()
     for (int k = 0; k < gArray; k++) {
         printf(ANSI_GREEN"\nindex: %d, Wert: %d"ANSI_RESET, k, array[k]);
     }
-    
 
+    free(array)
 
 
     return 0;
