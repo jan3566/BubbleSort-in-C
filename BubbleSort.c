@@ -51,7 +51,7 @@ int main()
         printf(ANSI_GREEN"\nindex: %d, Wert: %d"ANSI_RESET, k, array[k]);
     }
 
-    free(array)
+    free(array);
 
 
     return 0;
